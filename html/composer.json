@@ -1,0 +1,20 @@
+{
+    "require": {
+        "slim/slim": "^4.3",
+        "slim/psr7": "^0.6.0",
+        "victorap93/powerbiembedded": "^0.1.0",
+        "vlucas/phpdotenv": "^4.2"
+    },
+    "authors": [
+        {
+            "name": "Victor Aparecido Barbato Rossi",
+            "email": "victorap93@gmail.com",
+            "homepage": "https://github.com/victorap93"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.1"
+        }
+    }
+}
