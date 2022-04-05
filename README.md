@@ -1,13 +1,14 @@
 # Power BI Embedded PHP API
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
-[![Latest Version](https://img.shields.io/github/release/victorap93/powerbiembedded-php-api.svg?style=flat-square)](https://github.com/victorap93/powerbiembedded/releases)
-[![Total Downloads](https://img.shields.io/packagist/dt/victorap93/powerbiembedded-php-api.svg?style=flat-square)](https://packagist.org/packages/victorap93/powerbiembedded)
+[![Latest Version](https://img.shields.io/github/release/victorap93/powerbiembedded-php-api.svg?style=flat-square)](https://github.com/victorap93/powerbiembedded-php-api/releases)
 
 
-## Installing Power BI Embedded PHP API
+## INSTALLATION
 
-With Docker
+### With Docker:
+
+Make sure you have the docker service running and composer installed, open the terminal, navigate to your working directory and run the commands below:
 
 ```bash
 git clone https://github.com/victorap93/powerbiembedded-php-api.git
@@ -17,7 +18,9 @@ cd .\html\
 docker run --rm --interactive --tty --volume $PWD\:/app composer install
 ```
 
-Without Docker
+### With Apache:
+
+Make sure you have apache service running, open terminal, navigate to your working directory and run the commands below:
 
 ```bash
 git clone https://github.com/victorap93/powerbiembedded-php-api.git
@@ -25,17 +28,19 @@ cd .\powerbiembedded-php-api\
 composer install
 ```
 
+## HOW TO USE
 
-## Get the embedding parameter values
+### Get the nedded parameters:
 
 Read this [step](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#step-5---get-the-embedding-parameter-values) to know how to get neded params.
 
+### Put paramters in project:
 
-## How to use
+Create a copy from `.env.example` named `.env` and replace the empty values ​​with those obtained from Microsoft.
 
-Rename the `.env.example` to `.env` and replace the values ​​with the same ones obtained from Microsoft
+### Call API:
 
-You can use a [Postman hosted example](https://www.postman.com/victorap93/workspace/power-bi-embedded-php-api/request/5723430-918ef964-e34e-44cb-9a0c-66d58735d68f) or simply use the below command via curl filling the *report_id*.
+You can copy this [Postman hosted example](https://www.postman.com/victorap93/workspace/power-bi-embedded-php-api/request/5723430-918ef964-e34e-44cb-9a0c-66d58735d68f) or simply run the below command in a terminal, in all cases adjusting the *url* and *report_id* values ​​to your project structure
 
 ```bash
 curl --location --request POST 'http://localhost/getToken' \
