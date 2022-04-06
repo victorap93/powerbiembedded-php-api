@@ -4,7 +4,7 @@
 [![Latest Version](https://img.shields.io/github/release/victorap93/powerbiembedded-php-api.svg?style=flat-square)](https://github.com/victorap93/powerbiembedded-php-api/releases)
 
 
-## INSTALLATION
+## Installation
 
 ### With Docker:
 
@@ -28,7 +28,8 @@ cd .\powerbiembedded-php-api\
 composer install
 ```
 
-## HOW TO USE
+
+## How to use
 
 ### Get the nedded parameters:
 
@@ -40,7 +41,7 @@ Create a copy from `.env.example` named `.env` and replace the empty values ​�
 
 ### Call API:
 
-You can copy this [Postman hosted example](https://www.postman.com/victorap93/workspace/power-bi-embedded-php-api/request/5723430-918ef964-e34e-44cb-9a0c-66d58735d68f) or simply run the below command in a terminal, in all cases adjusting the *url* and *report_id* values ​​to your project structure
+You can copy this [Postman hosted example](https://www.postman.com/victorap93/workspace/power-bi-embedded-php-api/request/5723430-918ef964-e34e-44cb-9a0c-66d58735d68f) or simply run the below command in a terminal, in all cases adjusting the *url* and *report_id* values ​​to your project structure.
 
 ```bash
 curl --location --request POST 'http://localhost/getToken' \
@@ -52,6 +53,10 @@ curl --location --request POST 'http://localhost/getToken' \
     }
 }'
 ```
+
+
+## More
+For the interface implementation see this [project](https://github.com/victorap93/powerbiembedded-react) in React.
 
 
 ## License
