@@ -8,7 +8,7 @@
 
 ### With Docker:
 
-Make sure you have the docker service running and composer installed, open the terminal, navigate to your working directory and run the commands below:
+Make sure you have the **Docker** installed and running, open the terminal, navigate to your working directory and run the commands below:
 
 ```bash
 git clone https://github.com/victorap93/powerbiembedded-php-api.git
@@ -20,7 +20,7 @@ docker run --rm --interactive --tty --volume $PWD\:/app composer install
 
 ### With Apache:
 
-Make sure you have apache service running, open terminal, navigate to your working directory and run the commands below:
+Make sure you have **PHP**, **Composer** and **Apache** installed in your machine and **Apache** service running, open terminal, navigate to your working directory and run the commands below:
 
 ```bash
 git clone https://github.com/victorap93/powerbiembedded-php-api.git
@@ -56,7 +56,7 @@ curl --location --request POST 'http://localhost/getToken' \
 
 
 ## More
-For the interface implementation see this [project](https://github.com/victorap93/powerbiembedded-react) in React.
+For the interface implementation see this [project](https://github.com/victorap93/powerbiembedded-react-app) in React.
 
 
 ## License

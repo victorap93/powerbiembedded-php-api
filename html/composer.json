@@ -1,5 +1,6 @@
 {
     "require": {
+        "php": "^7.1",
         "slim/slim": "^4.3",
         "slim/psr7": "^0.6.0",
         "victorap93/powerbiembedded": "^0.1.0",
