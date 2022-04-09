@@ -24,7 +24,7 @@ Make sure you have **PHP**, **Composer** and **Apache** installed in your machin
 
 ```bash
 git clone https://github.com/victorap93/powerbiembedded-php-api.git
-cd .\powerbiembedded-php-api\
+cd .\powerbiembedded-php-api\html\
 composer install
 ```
 
